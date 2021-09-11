@@ -95,13 +95,31 @@ body{
     top:0;
     left: 0;
     overflow: hidden;
+    z-index: 3;
 }
 #lightbox:target{
     height:auto;
     width:30%;
     top:30%;
     left:30%;
-    background-color: rgba(73, 70, 70, 0.61);
+    background-color: rgba(255, 255, 255, 0.452);
+}
+#lightbox a{
+  font-size:30px;
+  font-weight: bolder;
+  color: red;
+  margin-left: 10px;
+}
+#lightbox img{
+  border-radius: 300px;
+  height:300px;
+  width:300px;
+  margin:auto ;
+
+}
+#lightbox p{
+  text-align: center;
+  font-size:25px;
 }
 
 
